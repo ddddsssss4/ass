@@ -10,9 +10,6 @@ export default function App() {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    document.title = '22BCS15150'; // Replace with your actual roll number
-  }, []);
 
   const handleSubmit = async (e) => {
     console.log('handleSubmit');
